@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+
+    display:table;
+    width: auto;
+    margin-left: 85px;
+    margin-right: auto;
+
+
+}
+.delbtn {
+     background: url("./X.png"); 
+     background-size: contain;
+     display: inline-block;
+    
+     width: 25px;
+     height: 25px;
+     margin-left: 10px; 
+    margin-bottom: 2px;
+   
+     
+}
+.list{
+    color: rab(44,44,44);
+    font-weight: bold;
+    text-align: left;
+}
+
+h1{
+    color: #ffe7e7;
+}
+body{
+    transition:4s;
+}
+
+.todo{
+    text-align: center;
+    border: solid 3px #ffe7e7;
+    width: 400px;
+    margin: auto;
+    margin-top: 220px;
+
+}
