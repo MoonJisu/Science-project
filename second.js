@@ -5,10 +5,6 @@ let abc;
 
 function start(){
     let num = Math.round(Math.random()*2);
-    let bDisplay = true;
-    let con = document.getElementById("Q");
-    if (con.style.display == 'none') con.style.display = 'block';
-    else con.style.display = 'none';
 
     console.log(num);
     abc = num;
